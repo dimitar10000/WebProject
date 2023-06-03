@@ -1,0 +1,110 @@
+#scene {
+    position: relative;
+    margin-top: 10px;
+}
+
+#wrapper img{
+    position: relative;
+}
+
+.drop-target {
+    text-align: center;
+}
+
+#refresh-button {
+    position:absolute;
+    top:0px;
+    left:1030px;
+}
+
+#refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {
+    cursor: pointer;
+}
+
+#green-arrow-left {
+    position: absolute;
+    bottom: 0px;
+    left:170px;
+}
+
+#green-arrow-right {
+    position: absolute;
+    bottom: 0px;
+    left:1030px;
+}
+
+.answer {
+    color:rgb(14, 12, 12);
+    font-weight: bold;
+}
+
+label {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#labels-section {
+    text-align: center;
+}
+
+.drag-over {
+    border: solid 2px red;
+}
+
+.hide {
+    display: none;
+}
+
+#kitchen {
+    position: relative;
+    margin-left: 300px;
+}
+
+#table {
+    position: absolute;
+    bottom: 15px;
+    left: 480px;
+}
+
+#chairs {
+    position: absolute;
+    bottom: 30px;
+    left: 380px;
+}
+
+#newspaper {
+    position: absolute;
+    bottom: 80px;
+    left: 650px;
+}
+
+#fruit-bowl {
+    position: absolute;
+    bottom: 110px;
+    left: 520px;
+}
+
+#fridge {
+    position: absolute;
+    bottom: 170px;
+    left: 735px;
+}
+
+#cooker-rest {
+    position: absolute;
+    bottom: 162px;
+    left: 470px;
+}
+
+#upper-half {
+    position: absolute;
+    bottom: 300px;
+    left: 500px;
+}
+
+#cooker {
+    position: absolute;
+    bottom: 171px;
+    left: 606px;
+}

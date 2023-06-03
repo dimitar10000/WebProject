@@ -1,0 +1,98 @@
+#scene {
+    position: relative;
+    margin-top: 10px;
+}
+
+#wrapper img{
+    position: relative;
+}
+
+.drop-target {
+    text-align: center;
+}
+
+#study {
+    position: relative;
+    margin-left: 300px;
+}
+
+#refresh-button {
+    position:absolute;
+    top:0px;
+    left:1030px;
+}
+
+#refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {
+    cursor: pointer;
+}
+
+#green-arrow-left {
+    position: absolute;
+    bottom: 0px;
+    left:170px;
+}
+
+.answer {
+    color:rgb(14, 12, 12);
+    font-weight: bold;
+}
+
+label {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#labels-section {
+    text-align: center;
+}
+
+.drag-over {
+    border: solid 2px red;
+}
+
+.hide {
+    display: none;
+}
+
+#desk {
+    position: absolute;
+    bottom: 10px;
+    left: 730px;
+}
+
+#chair {
+    position: absolute;
+    bottom: 50px;
+    left: 675px;
+}
+
+#laptop {
+    position: absolute;
+    bottom: 140px;
+    left: 775px;
+}
+
+#phone {
+    position: absolute;
+    bottom: 110px;
+    left: 845px;
+}
+
+#pens {
+    position: absolute;
+    bottom: 110px;
+    left: 910px;
+}
+
+#books {
+    position: absolute;
+    bottom: 320px;
+    left: 570px;
+}
+
+#door {
+    position: absolute;
+    bottom: 40px;
+    left: 340px;
+}

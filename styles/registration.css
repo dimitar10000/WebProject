@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+#reg-title {
+    margin-bottom: 25px;
+    font-size:35px;
+}
+
+#register-button {
+    height: 35px;
+    width: 120px;
+    margin-top:10px;
+    font-size:16px;
+    border-radius: 10px;
+    border: 1px solid #7ba8e4;
+    background-color: #056cf2;
+    color:#f2f2f2;
+    padding: 7px;
+}
+
+#register-button:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+label {
+    color:rgb(241, 11, 11)
+}
+
+.login-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#link {
+    font-size: 18px;
+}

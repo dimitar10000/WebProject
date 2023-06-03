@@ -1,0 +1,55 @@
+#menu {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 50px;
+    width:38%;
+}
+
+#select-prompt {
+    margin-bottom: 100px;
+    font-size: 32px;
+}
+
+.level {
+    padding-bottom: 80px;
+    font-size: 30px;
+}
+
+#container {
+    display:flex
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+#left-side {
+    width:42%;
+}
+
+.left-icon {
+    margin-bottom: 5px;
+}
+
+.icon-text {
+    margin-bottom: 15px;
+    margin-left:50px;
+    font-size:20px;
+}
+
+#middle-part {
+    width:38%;
+}
+
+#heading {
+    font-size: 25px;
+    
+}
+
+#logout {
+    font-size: 26px;
+    width:20%;
+    text-align: right;
+    margin-right: 20px;
+}

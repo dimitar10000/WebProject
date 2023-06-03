@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+#login-title {
+    margin-bottom: 25px;
+    font-size:35px;
+}
+
+#login-button {
+    height: 35px;
+    width: 70px;
+    margin-top:10px;
+    font-size:16px;
+    border-radius: 10px;
+    border: 1px solid #7ba8e4;
+    background-color: #056cf2;
+    color:#f2f2f2;
+    padding: 7px;
+}
+
+#login-button:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.login-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#link {
+    font-size: 18px;
+}

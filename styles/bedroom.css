@@ -1,0 +1,92 @@
+#scene {
+    position: relative;
+    margin-top: 10px;
+}
+
+#wrapper img{
+    position: relative;
+}
+
+.drop-target {
+    text-align: center;
+}
+
+#bedroom {
+    position: relative;
+    margin-left: 300px;
+}
+
+#drawer {
+    position: absolute;
+    bottom: 50px;
+    left: 380px;
+}
+
+#lamp {
+    position: absolute;
+    bottom: 220px;
+    left: 450px;
+}
+
+#bed {
+    position: absolute;
+    bottom: 50px;
+    left: 540px;
+}
+
+#picture {
+    position: absolute;
+    bottom: 310px;
+    left: 630px;
+}
+
+#window {
+    position: absolute;
+    bottom: 200px;
+    left: 850px;
+}
+
+#refresh-button {
+    position:absolute;
+    top:0px;
+    left:1030px;
+}
+
+#refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {
+    cursor: pointer;
+}
+
+#green-arrow-left {
+    position: absolute;
+    bottom: 0px;
+    left:170px;
+}
+
+#green-arrow-right {
+    position: absolute;
+    bottom: 0px;
+    left:1030px;
+}
+
+.answer {
+    color:rgb(14, 12, 12);
+    font-weight: bold;
+}
+
+label {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#labels-section {
+    text-align: center;
+}
+
+.drag-over {
+    border: solid 2px red;
+}
+
+.hide {
+    display: none;
+}

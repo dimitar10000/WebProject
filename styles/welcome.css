@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    font-size:40px;
+}
+
+#container {
+    display: flex;
+
+}
+
+#left-section {
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+#learn-box {
+    margin-right: 30px;
+}
+
+#learn-box, #level-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-rectangle {
+    width:340px;
+    height: 80px;
+    border: 2px solid #61a641;
+    border-radius: 20px 20px 0px 0px;
+    line-height: 80px;
+    font-size: 20px;
+}
+
+.bottom-rectangle {
+    width:320px;
+    height: 200px;
+    border: 2px solid #61a641;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#level-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#level-bottom button {
+    background-color: #61a641;
+    font-size: 18px;
+    padding: 10px;
+    margin:10px;
+    border-radius: 15px 15px 15px 15px;
+    color:#f2f2f2;
+}
+
+#level-bottom button:hover {
+    cursor: pointer;
+}
+
+#poster-image {
+    width: 20%;
+    margin-right: 50px;
+}
+

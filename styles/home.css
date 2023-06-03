@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 28px;
+}
+
+li {
+    float:right;
+    margin-right: 15px;
+}
+
+ul {
+  margin-top:0;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #73d378;
+}
