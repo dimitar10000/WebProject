@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../styles/registration.css">
+    <script src="../scripts/username_message.js" type="module"></script>
+</head>
+
+<body>
+    <h1 id="reg-title">Регистрация</h1>
+
+    <form id="form" method="post">
+        <div class="login-label"> Потребителско име </div>
+        <div> <input type="text" id="username" name="username" required /> </div>
+        <div class="login-label"> Парола </div>
+        <div> <input type="password" id="password" name="password" required> </div>
+
+        <div> <button type="submit" id="register-button" name="submit"> Регистрация </div>
+        <p id="link"> Имате вече акаунт? <a href="login.html">Натиснете тук!</a></p>
+    </form>
+
+    <div id="label-space">
+        <label id="label" hidden> Потребител с такова име вече съществува. Моля, изберете друго! </label>
+    </div>
+
+</body>
+
+</html>

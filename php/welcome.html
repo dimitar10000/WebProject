@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Добре дошли</title>
+    <link rel="stylesheet" href="../styles/welcome.css" />
+    <link rel="stylesheet" href="../styles/banner-styles.css" />
+    <script src="../scripts/welcome.js" type="module"></script>
+</head>
+
+<body>
+    <ul>
+        <img id="app-logo" class="left-side" src="../images/app_logo.png" width="192" height="44">
+
+        <li class="left-side"> <a href="words.html"> Научи нови думи </a> </li>
+
+        <div class="dropdown left-side">
+            <li> <a> Избери ниво </a> </li>
+
+            <div class="dropdown-content">
+                <a href="bedroom.html">Лесно</a>
+                <a href="medium-level.html">Средно</a>
+                <a href="hard-level.html">Трудно</a>
+            </div>
+        </div>
+
+        <li id="exit" class="right-side"> <a href="logout.html"> Изход </a> </li>
+
+        <div class="dropdown right-side">
+            <li> <a> Профил </a> </li>
+
+            <div class="dropdown-content">
+                <a href="profile.html">Потребител</a>
+                <a href="dictionary.html">Моят речник</a>
+            </div>
+        </div>
+
+    </ul>
+
+    <div id="container">
+        <div id="left-section">
+            <h1> Добре дошли,
+                <span id="session-name"> </span>!
+            </h1>
+
+            <div id="boxes">
+                <span id="learn-box">
+                    <div class="top-rectangle">
+                        Научи нови думи
+                    </div>
+
+                    <div class="bottom-rectangle">
+
+                    </div>
+                </span>
+
+                <span id="level-box">
+                    <div class="top-rectangle">
+                        Избери ниво
+                    </div>
+
+                    <div class="bottom-rectangle" id="level-bottom">
+                        <button type="button" onclick="location.href='bedroom.html'"> Лесно </button>
+                        <button type="button"onclick="location.href='medium-level.html'"> Средно </button>
+                        <button type="button" onclick="location.href='hard-level.html'"> Трудно </button>
+                    </div>
+
+                </span>
+            </div>
+        </div>
+
+        <div id="poster-image">
+            <img src="" width="300" height="500">
+        </div>
+    </div>
+</body>
+
+</html>

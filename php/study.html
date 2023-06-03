@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Study</title>
+    <link rel="stylesheet" href="../styles/study.css">
+    <link rel="stylesheet" href="../styles/banner-styles.css">
+    <script src="../scripts/study.js" type="module"> </script>
+</head>
+
+<body>
+
+    <ul>
+        <img id="app-logo" class="left-side" src="../images/app_logo.png" width="192" height="44">
+
+        <li class="left-side"> <a href="words.php"> Научи нови думи </a> </li>
+
+        <div class="dropdown left-side">
+            <li> <a> Избери ниво </a> </li>
+
+            <div class="dropdown-content">
+                <a href="bedroom.php">Лесно</a>
+                <a href="medium-level.php">Средно</a>
+                <a href="hard-level.php">Трудно</a>
+            </div>
+        </div>
+
+        <li id="exit" class="right-side"> <a href="logout.php"> Изход </a> </li>
+
+        <div class="dropdown right-side">
+            <li> <a> Профил </a> </li>
+
+            <div class="dropdown-content">
+                <a href="profile.php">Потребител</a>
+                <a href="dictionary.php">Моят речник</a>
+            </div>
+        </div>
+    </ul>
+
+    <div id="scene">
+
+        <img id="study" src="../images/room_study.png" height="500" width="704" />
+
+        <div class="wrapper drop-target" id='desk' height="214" width="254">
+            <img src="../images/desk.png" height="214" width="254" />
+        </div>
+
+        <div class="wrapper drop-target" id='chair' height="200" width="100">
+            <img src="../images/chair.png" height="200" width="100" />
+        </div>
+
+        <div class="wrapper drop-target" id='laptop' height="130" width="116">
+            <img src="../images/laptop.png" height="130" width="116" />
+        </div>
+
+        <div class="wrapper drop-target" id='phone' height="16" width="40">
+            <img src="../images/phone.png" height="16" width="40" />
+        </div>
+
+        <div class="wrapper drop-target" id='pens' height="54" width="22">
+            <img src="../images/pens.png" height="54" width="22" />
+        </div>
+
+        <div class="wrapper drop-target" id='books' height="68" width="176">
+            <img src="../images/books.png" height="68" width="176" />
+        </div>
+
+        <div class="wrapper drop-target" id='door' height="54" width="22">
+            <img src="../images/door.png" height="384" width="120" />
+        </div>
+
+        <div id="refresh-button">
+            <img src="../images/refresh_icon.png" height="84" width="110" />
+        </div>
+
+        <div id="green-arrow-left">
+            <img src="../images/green_arrow_left.png" height="80" width="104" />
+        </div>
+
+    </div>
+
+    <br>
+
+    <div id="labels-section">
+
+    </div>
+
+</body>
+
+</html>
