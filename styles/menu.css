@@ -1,3 +1,9 @@
+body, html {
+    margin: 0;
+    height:100%;
+    background-color: #61A641;
+}
+
 #menu {
     text-align: center;
     margin-top:20px;

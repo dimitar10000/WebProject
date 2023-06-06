@@ -1,6 +1,24 @@
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px 0px 10px -110px;
+}
+
+
 #scene {
-    position: relative;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 #wrapper img{
@@ -11,52 +29,55 @@
     text-align: center;
 }
 
-#bedroom {
+.bedroom {
     position: relative;
-    margin-left: 300px;
+    background-image: url(../images/bedroom.png);
+    width: 700px;
+    height: 504px;
+    background-size: contain;
 }
 
 #drawer {
     position: absolute;
-    bottom: 50px;
-    left: 380px;
+    bottom: 12%;
+    left: 7%;
 }
 
 #lamp {
     position: absolute;
-    bottom: 220px;
-    left: 450px;
+    bottom: 54%;
+    left: 21%;
 }
 
 #bed {
     position: absolute;
-    bottom: 50px;
-    left: 540px;
+    bottom: 10%;
+    left: 32%;
 }
 
 #picture {
     position: absolute;
-    bottom: 310px;
-    left: 630px;
+    bottom: 63%;
+    left: 46%;
 }
 
 #window {
     position: absolute;
-    bottom: 200px;
-    left: 850px;
+    bottom: 31%;
+    left: 79%;
 }
 
-#refresh-button {
+/* #refresh-button {
     position:absolute;
     top:0px;
     left:1030px;
-}
+} */
 
 #refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {
     cursor: pointer;
 }
 
-#green-arrow-left {
+/* #green-arrow-left {
     position: absolute;
     bottom: 0px;
     left:170px;
@@ -66,7 +87,7 @@
     position: absolute;
     bottom: 0px;
     left:1030px;
-}
+} */
 
 .answer {
     color:rgb(14, 12, 12);
@@ -77,10 +98,21 @@ label {
     font-size: 25px;
     cursor: pointer;
     margin-right: 20px;
+    background-color: #3f772e;
+    border: 1px dotted black;
+    padding: 10px;
+    color: white;
+    min-width: 150px;
 }
 
 #labels-section {
+    margin-left: 40px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    gap:20px;
 }
 
 .drag-over {
@@ -89,4 +121,8 @@ label {
 
 .hide {
     display: none;
+}
+
+.left-side {
+    margin-left: 15px;
 }

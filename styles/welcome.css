@@ -1,3 +1,9 @@
+body, html {
+    margin: 0;
+    height:100%;
+    background-color: #61A641;
+}
+
 h1 {
     text-align: center;
     font-size:40px;
