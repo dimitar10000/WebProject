@@ -1,5 +1,6 @@
 import { sendRequest } from "./request.js";
 import { authorize } from "./authorize.js";
+import {leave} from "./common-functions.js"
 
 window.addEventListener("load", () => {
     authorize();
@@ -28,6 +29,32 @@ function updateSuccess(response) {
     }
 
     showWords(words);
+}
+
+function getTranslation(word) {
+    if (word == "armchair") return "кресло";
+    else if (word == "bed") return "легло";
+    else if (word == "books") return "книги";
+    else if (word == "chair") return "стол";
+    else if (word == "cooker") return "печка";
+    else if (word == "desk") return "бюро";
+    else if (word == "door") return "врата";
+    else if (word == "drawer") return "чекмедже";
+    else if (word == "fridge") return "хладилник";
+    else if (word == "fruit-bowl") return "купа за плодове";
+    else if (word == "lamp") return "лампа";
+    else if (word == "laptop") return "лаптоп";
+    else if (word == "newspaper") return "вестник";
+    else if (word == "pens") return "химикали";
+    else if (word == "phone") return "телефон";
+    else if (word == "picture") return "картина";
+    else if (word == "remote-control") return "дистанционно управление";
+    else if (word == "small-table") return "маса";
+    else if (word == "sofa") return "диван";
+    else if (word == "table") return "маса";
+    else if (word == "tv") return "телевизор";
+    else if (word == "window") return "прозорец";
+
 }
 
 function showWords(arr) {
@@ -78,11 +105,31 @@ function showWords(arr) {
         obj.style.objectFit = "contain";
 
         container.style.marginTop = "50px";
-        container.style.marginBottom = "50px";
+        container.style.marginBottom = "20px";
 
         container.appendChild(obj);
         var sect = document.getElementById("words-section");
         sect.appendChild(container);
+
+        var lab = document.createElement("label");
+        var translation = getTranslation(word);
+
+        if (word == "fruit-bowl") {
+            lab.innerHTML = "fruit bowl";
+        }
+        else if (word == "remote-control") {
+            lab.innerHTML = "remote control";
+        }
+        else if (word == "small-table") {
+            lab.innerHTML = "table";
+        }
+        else {
+            lab.innerHTML = word;
+        }
+        
+        lab.innerHTML += " - " + translation;
+        lab.style.alignContent = "center";
+        sect.appendChild(lab);
     }
 }
 
