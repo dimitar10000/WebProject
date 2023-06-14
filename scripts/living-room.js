@@ -231,12 +231,12 @@ function showAnswer(itemID, labelID, pos) {
     answer.classList.add("answer");
 
     if (pos == "above") {
-        answer.style.left = obj.left + (item.offsetWidth) / 2 - 40 + "px";
+        answer.style.left = obj.left + (item.offsetWidth) / 4 - 80 + "px";
         answer.style.top = obj.top - 90 + "px";
     }
     else if (pos == "below") {
-        answer.style.left = obj.left + (item.offsetWidth) / 2 - 40 + "px";
-        answer.style.top = obj.top + (item.offsetHeight) / 2 + 10 + "px";
+        answer.style.left = obj.left + (item.offsetWidth) / 4 - 100 + "px";;
+        answer.style.top = obj.top + (item.offsetHeight) / 4 - 20 + "px";
     }
 
     var label = document.getElementById(labelID);

@@ -39,8 +39,8 @@
 
 #drawer {
     position: absolute;
-    bottom: 12%;
-    left: 7%;
+    bottom: 56px;
+    left: 47px;
 }
 
 #lamp {
@@ -51,8 +51,8 @@
 
 #bed {
     position: absolute;
-    bottom: 10%;
-    left: 32%;
+    bottom: 9%;
+    left: 31%;
 }
 
 #picture {
@@ -63,8 +63,8 @@
 
 #window {
     position: absolute;
-    bottom: 31%;
-    left: 79%;
+    bottom: 28%;
+    left: 78%;
 }
 
 /* #refresh-button {

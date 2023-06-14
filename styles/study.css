@@ -1,98 +1,118 @@
-#scene {
-    position: relative;
-    margin-top: 10px;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-#wrapper img{
-    position: relative;
+.action-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+  margin: 10px 0px 10px -110px;
+}
+
+.study {
+  position: relative;
+  background-image: url(../images/study\ room.png);
+  width: 700px;
+  height: 504px;
+  background-size: contain;
+}
+
+#scene {
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper img {
+  position: relative;
 }
 
 .drop-target {
-    text-align: center;
+  text-align: center;
 }
 
 #study {
-    position: relative;
-    margin-left: 300px;
+  position: relative;
 }
 
-#refresh-button {
-    position:absolute;
-    top:0px;
-    left:1030px;
+#refresh-button:hover,
+#green-arrow-left:hover,
+#green-arrow-right:hover {
+  cursor: pointer;
 }
-
-#refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {
-    cursor: pointer;
-}
-
-#green-arrow-left {
-    position: absolute;
-    bottom: 0px;
-    left:170px;
-}
-
 .answer {
-    color:rgb(14, 12, 12);
-    font-weight: bold;
+  color: rgb(14, 12, 12);
+  font-weight: bold;
 }
 
 label {
-    font-size: 25px;
-    cursor: pointer;
-    margin-right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 20px;
+  background-color: #3f772e;
+  border: 1px dotted black;
+  padding: 10px;
+  color: white;
+  min-width: 150px;
 }
 
 #labels-section {
-    text-align: center;
+  margin-left: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  gap: 20px;
 }
 
 .drag-over {
-    border: solid 2px red;
+  border: solid 2px red;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 #desk {
-    position: absolute;
-    bottom: 10px;
-    left: 730px;
+  position: absolute;
+  bottom: 13px;
+  left: 432px;
 }
 
 #chair {
-    position: absolute;
-    bottom: 50px;
-    left: 675px;
+  position: absolute;
+  bottom: 87px;
+  left: 374px;
 }
 
 #laptop {
-    position: absolute;
-    bottom: 140px;
-    left: 775px;
+  position: absolute;
+  bottom: 210px;
+  left: 470px;
 }
 
 #phone {
-    position: absolute;
-    bottom: 110px;
-    left: 845px;
+  position: absolute;
+  bottom: 148px;
+  left: 539px;
 }
 
 #pens {
-    position: absolute;
-    bottom: 110px;
-    left: 910px;
+  position: absolute;
+  bottom: 150px;
+  left: 591px;
 }
 
 #books {
-    position: absolute;
-    bottom: 320px;
-    left: 570px;
+  position: absolute;
+  bottom: 345px;
+  left: 255px;
 }
 
 #door {
-    position: absolute;
-    bottom: 40px;
-    left: 340px;
+  position: absolute;
+  bottom: 45px;
+  left: 40px;
 }
