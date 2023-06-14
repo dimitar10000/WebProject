@@ -1,6 +1,22 @@
+#exitclick:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px 0px 10px -110px;
+}
+
 #scene {
     position: relative;
-    margin-top: 10px;
 }
 
 #wrapper img{
@@ -13,23 +29,13 @@
 
 #study {
     position: relative;
-    margin-left: 300px;
-}
-
-#refresh-button {
-    position:absolute;
-    top:0px;
-    left:1030px;
+    width:50%;
+    float:left;
+    margin-left: 230px;
 }
 
 #refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {
     cursor: pointer;
-}
-
-#green-arrow-left {
-    position: absolute;
-    bottom: 0px;
-    left:170px;
 }
 
 .answer {
@@ -41,10 +47,24 @@ label {
     font-size: 25px;
     cursor: pointer;
     margin-right: 20px;
+    background-color: #3f772e;
+    border: 1px dotted black;
+    padding: 10px;
+    color: white;
+    min-width: 150px;
 }
 
 #labels-section {
+    margin-left: 40px;
+    margin-top:20px;
     text-align: center;
+    display: flex;
+    float: left;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    gap:20px;
 }
 
 .drag-over {
@@ -57,42 +77,42 @@ label {
 
 #desk {
     position: absolute;
-    bottom: 10px;
-    left: 730px;
+    bottom: 0px;
+    left: 660px;
 }
 
 #chair {
     position: absolute;
-    bottom: 50px;
-    left: 675px;
+    bottom: 30px;
+    left: 605px;
 }
 
 #laptop {
     position: absolute;
-    bottom: 140px;
-    left: 775px;
+    bottom: 120px;
+    left: 705px;
 }
 
 #phone {
     position: absolute;
-    bottom: 110px;
-    left: 845px;
+    bottom: 90px;
+    left: 775px;
 }
 
 #pens {
     position: absolute;
-    bottom: 110px;
-    left: 910px;
+    bottom: 90px;
+    left: 840px;
 }
 
 #books {
     position: absolute;
-    bottom: 320px;
-    left: 570px;
+    bottom: 300px;
+    left: 500px;
 }
 
 #door {
     position: absolute;
-    bottom: 40px;
-    left: 340px;
+    bottom: 20px;
+    left: 270px;
 }

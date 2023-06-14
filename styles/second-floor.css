@@ -2,24 +2,22 @@
     cursor: pointer;
 }
 
-.container {
+#container {
     display: flex;
     flex-direction: column;
 }
 
-.action-box {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 40px;
-    margin: 10px 0px 10px -110px;
-}
-
 #scene {
-    position: relative;
+    display: flex;
 }
 
-#wrapper img{
+#scene1,#scene2 {
+    position: relative;
+    margin-top: 10px;
+    flex:1;
+}
+
+#living-room,#study {
     position: relative;
 }
 
@@ -27,8 +25,20 @@
     text-align: center;
 }
 
-#refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {
+#refresh-button {
+    position:absolute;
+    bottom:-80px;
+    left:0px;
+}
+
+#refresh-button:hover,#green-arrow-up:hover {
     cursor: pointer;
+}
+
+#green-arrow-up {
+    position: absolute;
+    top: 0px;
+    left:0px;
 }
 
 .answer {
@@ -47,14 +57,14 @@ label {
     min-width: 150px;
 }
 
-#labels-section {
+#labels-section1,#labels-section2 {
     margin-left: 40px;
-    margin-top:80px;
+    margin-top:10px;
     text-align: center;
     display: flex;
     float: left;
-    margin-left: 40px;
-    flex-direction: column;
+    margin-left: 120px;
+    flex-direction: row;
     justify-content: center;
     align-items: space-between;
     gap:20px;
@@ -68,39 +78,74 @@ label {
     display: none;
 }
 
-#living-room {
-    position: relative;
-    width:50%;
-    float:left;
-    margin-left: 230px;
-}
-
 #sofa {
     position: absolute;
     bottom: 140px;
-    left: 340px;
+    left: 120px;
 }
 
 #armchair {
     position: absolute;
     bottom: 80px;
-    left: 620px;
+    left: 400px;
 }
 
 #tv {
     position: absolute;
     bottom: 5px;
-    left: 250px;
+    left: 30px;
 }
 
-#small-table {
+#table {
     position: absolute;
     bottom: 40px;
-    left: 470px;
+    left: 250px;
 }
 
 #remote-control {
     position: absolute;
     bottom: 120px;
-    left: 510px;
+    left: 290px;
+}
+
+#desk {
+    position: absolute;
+    bottom: 10px;
+    left: 430px;
+}
+
+#chair {
+    position: absolute;
+    bottom: 50px;
+    left: 375px;
+}
+
+#laptop {
+    position: absolute;
+    bottom: 140px;
+    left: 475px;
+}
+
+#phone {
+    position: absolute;
+    bottom: 110px;
+    left: 545px;
+}
+
+#pens {
+    position: absolute;
+    bottom: 110px;
+    left: 610px;
+}
+
+#books {
+    position: absolute;
+    bottom: 320px;
+    left: 270px;
+}
+
+#door {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
 }

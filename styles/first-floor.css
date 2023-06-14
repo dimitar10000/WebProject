@@ -1,0 +1,153 @@
+#exitclick:hover {
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#scene {
+    display: flex;
+}
+
+#scene1,#scene2 {
+    position: relative;
+    margin-top: 10px;
+    flex:1;
+}
+
+#bedroom-room,#kitchen-room {
+    position: relative;
+}
+
+#drawer {
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+}
+
+#lamp {
+    position: absolute;
+    bottom: 220px;
+    left: 150px;
+}
+
+#bed {
+    position: absolute;
+    bottom: 50px;
+    left: 240px;
+}
+
+#picture {
+    position: absolute;
+    bottom: 310px;
+    left: 330px;
+}
+
+#window {
+    position: absolute;
+    bottom: 200px;
+    left: 550px;
+}
+
+#table {
+    position: absolute;
+    bottom: 15px;
+    left: 180px;
+}
+
+#chairs {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+}
+
+#newspaper {
+    position: absolute;
+    bottom: 80px;
+    left: 350px;
+}
+
+#fruit-bowl {
+    position: absolute;
+    bottom: 110px;
+    left: 220px;
+}
+
+#fridge {
+    position: absolute;
+    bottom: 170px;
+    left: 435px;
+}
+
+#cooker-rest {
+    position: absolute;
+    bottom: 162px;
+    left: 170px;
+}
+
+#upper-half {
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+}
+
+#cooker {
+    position: absolute;
+    bottom: 171px;
+    left: 306px;
+}
+
+#green-arrow-down {
+    position: absolute;
+    bottom: -50px;
+    left:0px;
+}
+
+#refresh-button {
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+#refresh-button:hover,#green-arrow-down:hover {
+    cursor: pointer;
+}
+
+.answer {
+    color:rgb(14, 12, 12);
+    font-weight: bold;
+}
+
+label {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: #3f772e;
+    border: 1px dotted black;
+    padding: 10px;
+    color: white;
+    min-width: 150px;
+}
+
+#labels-section1,#labels-section2 {
+    margin-left: 40px;
+    margin-top:10px;
+    text-align: center;
+    display: flex;
+    float: left;
+    margin-left: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    gap:20px;
+}
+
+.drag-over {
+    border: solid 2px red;
+}
+
+.hide {
+    display: none;
+}

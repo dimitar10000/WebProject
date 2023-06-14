@@ -1,6 +1,22 @@
+#exitclick:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px 0px 10px -110px;
+}
+
 #scene {
     position: relative;
-    margin-top: 10px;
 }
 
 #wrapper img{
@@ -11,26 +27,8 @@
     text-align: center;
 }
 
-#refresh-button {
-    position:absolute;
-    top:0px;
-    left:1030px;
-}
-
 #refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {
     cursor: pointer;
-}
-
-#green-arrow-left {
-    position: absolute;
-    bottom: 0px;
-    left:170px;
-}
-
-#green-arrow-right {
-    position: absolute;
-    bottom: 0px;
-    left:1030px;
 }
 
 .answer {
@@ -42,10 +40,24 @@ label {
     font-size: 25px;
     cursor: pointer;
     margin-right: 20px;
+    background-color: #3f772e;
+    border: 1px dotted black;
+    padding: 10px;
+    color: white;
+    min-width: 150px;
 }
 
 #labels-section {
+    margin-left: 40px;
+    margin-top:80px;
     text-align: center;
+    display: flex;
+    float: left;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    gap:20px;
 }
 
 .drag-over {
@@ -58,53 +70,55 @@ label {
 
 #kitchen {
     position: relative;
-    margin-left: 300px;
+    width:50%;
+    float:left;
+    margin-left: 230px;
 }
 
 #table {
     position: absolute;
     bottom: 15px;
-    left: 480px;
+    left: 395px;
 }
 
 #chairs {
     position: absolute;
     bottom: 30px;
-    left: 380px;
+    left: 295px;
 }
 
 #newspaper {
     position: absolute;
     bottom: 80px;
-    left: 650px;
+    left: 565px;
 }
 
 #fruit-bowl {
     position: absolute;
     bottom: 110px;
-    left: 520px;
+    left: 435px;
 }
 
 #fridge {
     position: absolute;
     bottom: 170px;
-    left: 735px;
+    left: 650px;
 }
 
 #cooker-rest {
     position: absolute;
     bottom: 162px;
-    left: 470px;
+    left: 385px;
 }
 
 #upper-half {
     position: absolute;
     bottom: 300px;
-    left: 500px;
+    left: 415px;
 }
 
 #cooker {
     position: absolute;
     bottom: 171px;
-    left: 606px;
+    left: 521px;
 }
