@@ -1,22 +1,9 @@
-
-* {
-    font-family: cursive;
-}
-
-
-
 #profile-section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
 }
 
 #subsection1,
@@ -32,9 +19,12 @@
     align-items: center;
     align-content: center;
     font-size: 20px;
-    align-items: center;
 }
 
+#labels {
+    margin-top: 20px;
+    align-self: flex-start;
+}
 
 #dictionary {
     margin-top: 100px;
@@ -43,79 +33,4 @@
 
 button a {
     text-decoration: none;
-}
-
-
-#profile-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-#subsection1, #subsection3 {
-    flex: 1;
-}
-
-#subsection2 {
-    flex: 2;
-    background-color: #FFFFFF;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-#subsection2 h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-#profile-image {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-}
-
-#profile-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
-#labels {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#labels div {
-    margin: 10px 0;
-}
-
-#labels label {
-    font-size: 1.2em;
-    color: #555;
-}
-
-#labels span {
-    font-weight: bold;
-    margin-left: 10px;
-}
-
-#dictionary {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #9bc334;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-#dictionary:hover {
-    background-color: #8ab02e;
-    cursor: pointer;
 }

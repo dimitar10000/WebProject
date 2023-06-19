@@ -83,7 +83,6 @@ function switchRoomLeft() {
         }
     }
     else {
-        updateScore(roomPoints);
         window.location.href = "living-room.html";
     }
 }
@@ -98,7 +97,6 @@ function switchRoomRight() {
         }
     }
     else {
-        updateScore(roomPoints);
         window.location.href = "study.html";
     }
 }
@@ -193,6 +191,9 @@ function checkMatch(labelID, itemID) {
 
         if (itemsMatched == 5) {
             showFoundAll();
+            updateScore(roomPoints);
+            var refresh = document.getElementById("refresh-button");
+            refresh.removeEventListener("click",restartLevel);
         }
 
         removeRedMarks();

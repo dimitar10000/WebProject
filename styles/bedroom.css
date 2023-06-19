@@ -38,8 +38,8 @@
 
 #drawer {
     position: absolute;
-    bottom: 56px;
-    left: 47px;
+    bottom: 50px;
+    left: 280px;
 }
 
 #lamp {
@@ -50,8 +50,8 @@
 
 #bed {
     position: absolute;
-    bottom: 9%;
-    left: 31%;
+    bottom: 50px;
+    left: 440px;
 }
 
 #picture {
@@ -62,8 +62,8 @@
 
 #window {
     position: absolute;
-    bottom: 28%;
-    left: 78%;
+    bottom: 200px;
+    left: 780px;
 }
 
 #refresh-button:hover,#green-arrow-left:hover,#green-arrow-right:hover {

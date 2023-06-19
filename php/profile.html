@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
+
+<head>
+    <meta charset="utf-8">
     <title>Профил</title>
     <link rel="stylesheet" href="../styles/profile.css" />
     <link rel="stylesheet" href="../styles/banner-styles.css" />
-    <script src="../scripts/profile.js" type="module"></script>
-  </head>
+    <script src="../scripts/profile.js" type="module"> </script>
+</head>
 
-  <body>
-    <ul>
-      <img
-        id="app-logo"
-        class="left-side"
-        src="../images/app_logo.png"
-        width="192"
-        height="44"
-      />
+<body>
+  <ul>
+    <img id="app-logo" class="left-side" src="../images/app_logo.png" width="192" height="44" />
 
-      <div class="menu">
-        <li class="left-side"><a href="words.html"> Научи нови думи </a></li>
+    <div class="menu">
 
-        <div class="dropdown left-side">
-          <li><a> Избери ниво </a></li>
+      <li class="left-side"><a href="words.html" target="_blank"> Научи нови думи </a></li>
 
-          <div class="dropdown-content">
-            <a href="bedroom.html">Лесно</a>
-            <a href="medium-level.html">Средно</a>
-            <a href="hard-level.html">Трудно</a>
-          </div>
-        </div>
+      <div class="dropdown left-side">
+        <li><a> Избери ниво </a></li>
 
-        <div class="dropdown left-side">
-          <li><a> Профил </a></li>
-
-          <div class="dropdown-content">
-            <a href="profile.html">Потребител</a>
-            <a href="dictionary.html">Моят речник</a>
-          </div>
+        <div class="dropdown-content">
+          <a href="bedroom.html" target="_blank">Лесно</a>
+          <a href="first-floor.html" target="_blank">Средно</a>
+          <a href="hard-level.html">Трудно</a>
         </div>
       </div>
 
-      <li id="exit" class="right-side">
+      <div class="dropdown left-side">
+        <li><a> Профил </a></li>
+
+        <div class="dropdown-content">
+          <a href="profile.html" target="_blank">Потребител</a>
+          <a href="dictionary.html" target="_blank">Моят речник</a>
+        </div>
+      </div>
+    </div>
+
+      <li class="right-side" id="exit">
         <a href="logout.html">
           <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.08 391.08">
             <defs>
@@ -60,6 +56,7 @@
                 .cls-2 {
                   fill: #9bc334;
                 }
+
                 .cls-1:hover {
                   fill: white;
                 }
@@ -85,40 +82,49 @@
   </ul>
 
     <div id="profile-section">
-      <div id="subsection1"></div>
 
-      <div id="subsection2">
-        <h1>Профил</h1>
+        <div id="subsection1">
 
-        <div id="profile-image">
-          <img src="../images/profile_image.png" />
         </div>
 
-        <div id="labels">
-          <div id="username" class="column">
-            <label> Потребителско име </label>
-            <span id="username-area"> </span>
-          </div>
+        <div id="subsection2">
+            <h1> Профил </h1>
 
-          <div id="total-points" class="column">
-            <label> Точки </label>
-            <span id="points-area"> </span>
-          </div>
+            <div id="profile-image">
+                <img src="../images/profile_image.png" />
+            </div>
 
-          <div id="words-learned" class="column">
-            <label> Научени думи </label>
-            <span id="words-area"> </span>
-          </div>
+            <div id="labels">
+
+                <div id="username">
+                    <label> Потребителско име:
+                        <span id="username-area"> </span>
+                    </label>
+                </div>
+
+                <div id="total-points">
+                    <label> Точки:
+                        <span id="points-area"> </span>
+                    </label>
+                </div>
+
+                <div id="words-learned">
+                    <label> Научени думи:
+                        <span id="words-area"> </span>
+                    </label>
+                </div>
+
+            </div>
+
+            <div>
+                <button id="dictionary" type="button"> <a href="dictionary.html"> Моят речник </a> </button>
+            </div>
         </div>
 
-        <div>
-          <button id="dictionary" type="button">
-            <a href="dictionary.html"> Моят речник </a>
-          </button>
-        </div>
-      </div>
+        <div id="subsection3">
 
-      <div id="subsection3"></div>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>

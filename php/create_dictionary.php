@@ -1,6 +1,6 @@
 <?php
 require 'connect_db.php';
-//include("auth_session.php");
+include("auth_session.php");
 
 $sql = "use $dbName";
 $conn->exec($sql);

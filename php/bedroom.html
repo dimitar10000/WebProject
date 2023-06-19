@@ -9,37 +9,38 @@
   <script src="../scripts/bedroom.js" type="module"></script>
 </head>
 
-      <div class="menu">
-        <li class="left-side"><a href="words.html"> Научи нови думи </a></li>
+<body>
+  <ul>
+    <img id="app-logo" class="left-side" src="../images/app_logo.png" width="192" height="44" />
 
-        <div class="dropdown left-side">
-          <li><a> Избери ниво </a></li>
+    <div class="menu">
 
-          <div class="dropdown-content">
-            <a href="bedroom.html">Лесно</a>
-            <a href="medium-level.html">Средно</a>
-            <a href="hard-level.html">Трудно</a>
-          </div>
-        </div>
+      <li class="left-side"><a href="words.html" target="_blank"> Научи нови думи </a></li>
 
-        <div class="dropdown left-side">
-          <li><a> Профил </a></li>
+      <div class="dropdown left-side">
+        <li><a> Избери ниво </a></li>
 
-          <div class="dropdown-content">
-            <a href="profile.html">Потребител</a>
-            <a href="dictionary.html">Моят речник</a>
-          </div>
+        <div class="dropdown-content">
+          <a href="bedroom.html" target="_blank">Лесно</a>
+          <a href="first-floor.html" target="_blank">Средно</a>
+          <a href="hard-level.html">Трудно</a>
         </div>
       </div>
 
-      <li id="exit" class="right-side">
-        <a href="logout.html">
-          <svg
-            id="Layer_1"
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 391.08 391.08"
-          >
+      <div class="dropdown left-side">
+        <li><a> Профил </a></li>
+
+        <div class="dropdown-content">
+          <a href="profile.html" target="_blank">Потребител</a>
+          <a href="dictionary.html" target="_blank">Моят речник</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="exitclick">
+      <li class="right-side" id="exit">
+        <a>
+          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.08 391.08">
             <defs>
               <style>
                 svg {
@@ -56,6 +57,7 @@
                 .cls-2 {
                   fill: #9bc334;
                 }
+
                 .cls-1:hover {
                   fill: white;
                 }
@@ -81,33 +83,13 @@
     </div>
   </ul>
 
-    <div class="container">
-      <div id="scene" style="margin-top: 45px">
-        <div class="bedroom">
-          <!-- <img id="bedroom" src="../images/room_bedroom.png" height="500" width="704" /> -->
+  <div class="container">
 
-          <div class="wrapper drop-target" id="drawer" height="224" width="152">
-            <img src="../images/drawer.png" height="224" width="152" />
-          </div>
+    <div id="scene" style="margin-top:10px">
+      <img id="bedroom" src="../images/room_bedroom.png" height="500" width="704" />
 
-          <div class="wrapper drop-target" id="lamp" height="77" width="44">
-            <img src="../images/lamp.png" height="77" width="44" />
-          </div>
-
-          <div class="wrapper drop-target" id="picture" height="114" width="88">
-            <img src="../images/picture.png" height="114" width="88" />
-          </div>
-
-          <div class="wrapper drop-target" id="bed" height="228" width="295">
-            <img src="../images/bed.png" height="228" width="295" />
-          </div>
-
-          <div class="wrapper drop-target" id="window" height="270" width="120">
-            <img src="../images/window.png" height="270" width="120" />
-          </div>
-        </div>
-
-        <div id="labels-section"></div>
+      <div class="wrapper drop-target" id="drawer" height="190" width="132">
+        <img src="../images/drawer.png" height="190" width="132" />
       </div>
 
       <div class="wrapper drop-target" id="lamp" height="66" width="40">

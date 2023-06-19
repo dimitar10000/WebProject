@@ -19,7 +19,6 @@ function createDictionary() {
 }
 
 function updateSuccess1(response) {
-
 }
 
 function addName() {

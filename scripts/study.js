@@ -94,7 +94,6 @@ function switchRoomLeft() {
         }
     }
     else {
-        updateScore(roomPoints);
         window.location.href = "bedroom.html";
     }
 }
@@ -177,7 +176,10 @@ function checkMatch(labelID, itemID) {
         }
 
         if(itemsMatched == 7) {
+            updateScore(roomPoints);
             showFoundAll();
+            var refresh = document.getElementById("refresh-button");
+            refresh.removeEventListener("click",restartLevel);
         }
 
         removeRedMarks();

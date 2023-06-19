@@ -1,54 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Living room</title>
-    <link rel="stylesheet" href="../styles/living-room.css" />
-    <link rel="stylesheet" href="../styles/banner-styles.css" />
-    <script src="../scripts/living-room.js" type="module"></script>
-  </head>
 
-  <body>
-    <ul>
-      <img
-        id="app-logo"
-        class="left-side"
-        src="../images/app_logo.png"
-        width="192"
-        height="44"
-      />
+<head>
+  <meta charset="utf-8" />
+  <title>Living room</title>
+  <link rel="stylesheet" href="../styles/living-room.css">
+  <link rel="stylesheet" href="../styles/banner-styles.css">
+  <script src="../scripts/living-room.js" type="module"> </script>
+</head>
 
-      <div class="menu">
-        <li class="left-side"><a href="words.html"> Научи нови думи </a></li>
+<body>
+  <ul>
+    <img id="app-logo" class="left-side" src="../images/app_logo.png" width="192" height="44" />
 
-        <div class="dropdown left-side">
-          <li><a> Избери ниво </a></li>
+    <div class="menu">
 
-          <div class="dropdown-content">
-            <a href="bedroom.html">Лесно</a>
-            <a href="medium-level.html">Средно</a>
-            <a href="hard-level.html">Трудно</a>
-          </div>
-        </div>
+      <li class="left-side"><a href="words.html" target="_blank"> Научи нови думи </a></li>
 
-        <div class="dropdown left-side">
-          <li><a> Профил </a></li>
+      <div class="dropdown left-side">
+        <li><a> Избери ниво </a></li>
 
-          <div class="dropdown-content">
-            <a href="profile.html">Потребител</a>
-            <a href="dictionary.html">Моят речник</a>
-          </div>
+        <div class="dropdown-content">
+          <a href="bedroom.html" target="_blank">Лесно</a>
+          <a href="first-floor.html" target="_blank">Средно</a>
+          <a href="hard-level.html">Трудно</a>
         </div>
       </div>
 
-      <li id="exit" class="right-side">
-        <a href="logout.html">
-          <svg
-            id="Layer_1"
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 391.08 391.08"
-          >
+      <div class="dropdown left-side">
+        <li><a> Профил </a></li>
+
+        <div class="dropdown-content">
+          <a href="profile.html" target="_blank">Потребител</a>
+          <a href="dictionary.html" target="_blank">Моят речник</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="exitclick">
+      <li class="right-side" id="exit">
+        <a>
+          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391.08 391.08">
             <defs>
               <style>
                 svg {
@@ -65,6 +57,7 @@
                 .cls-2 {
                   fill: #9bc334;
                 }
+
                 .cls-1:hover {
                   fill: white;
                 }
@@ -87,63 +80,53 @@
           </svg>
         </a>
       </li>
-    </ul>
-    <div class="container">
-      <div id="scene" style="margin-top:45px">
-        <div id="living-room">
-          <!-- <img
-            id="living-room"
-            src="../images/room_living_room.png"
-            height="500"
-            width="704"
-          /> -->
+    </div>
+  </ul>
 
-          <div class="wrapper drop-target" id="sofa" height="180" width="308">
-            <img src="../images/sofa.png" height="180" width="308" />
-          </div>
+  <div class="container">
 
-          <div
-            class="wrapper drop-target"
-            id="armchair"
-            height="212"
-            width="196"
-          >
-            <img src="../images/armchair.png" height="212" width="196" />
-          </div>
+    <div id="scene" style="margin-top:10px">
 
-          <div class="wrapper drop-target" id="tv" height="240" width="240">
-            <img src="../images/tv.png" height="240" width="240" />
-          </div>
+      <img id="living-room" src="../images/room_living_room.png" height="500" width="704" />
 
-          <div class="wrapper drop-target" id="table" height="150" width="181">
-            <img src="../images/small table.png" height="150" width="181" />
-          </div>
-
-          <div
-            class="wrapper drop-target"
-            id="remote-control"
-            height="80"
-            width="80"
-          >
-            <img src="../images/remote_control.png" height="80" width="80" />
-          </div>
-        </div>
-
-        <div id="labels-section"></div>
+      <div class="wrapper drop-target" id='sofa' height="180" width="308">
+        <img src="../images/sofa.png" height="180" width="308" />
       </div>
-      <div class="action-box">
-        <div id="green-arrow-left" height="80" width="104">
-          <img src="../images/green_arrow_left.png" height="80" width="104" />
-        </div>
 
-        <div id="refresh-button" height="84" width="110">
-          <img src="../images/refresh_icon.png" height="84" width="110" />
-        </div>
+      <div class="wrapper drop-target" id='armchair' height="212" width="196">
+        <img src="../images/armchair.png" height="212" width="196" />
+      </div>
 
-        <div id="green-arrow-right" height="80" width="104">
-          <img src="../images/green_arrow_right.png" height="80" width="104" />
-        </div>
+      <div class="wrapper drop-target" id='tv' height="240" width="240">
+        <img src="../images/tv.png" height="240" width="240" />
+      </div>
+
+      <div class="wrapper drop-target" id='small-table' height="150" width="190">
+        <img src="../images/small table.png" height="150" width="190" />
+      </div>
+
+      <div class="wrapper drop-target" id='remote-control' height="80" width="80">
+        <img src="../images/remote_control.png" height="80" width="80" />
+      </div>
+
+      <div id="labels-section"></div>
+    </div>
+
+    <div class="action-box">
+      <div id="green-arrow-left" height="80" width="104">
+        <img src="../images/green_arrow_left.png" height="80" width="104" />
+      </div>
+
+      <div id="refresh-button" height="84" width="110">
+        <img src="../images/refresh_icon.png" height="84" width="110" />
+      </div>
+
+      <div id="green-arrow-right" height="80" width="104">
+        <img src="../images/green_arrow_right.png" height="80" width="104" />
       </div>
     </div>
-  </body>
+  </div>
+
+</body>
+
 </html>

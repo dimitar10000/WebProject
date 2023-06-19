@@ -190,7 +190,6 @@ function switchRoomUp() {
         }
     }
     else {
-        updateScore(roomPoints);
         window.location.href = "first-floor.html";
     }
 }
@@ -317,7 +316,10 @@ function checkMatch(labelID, itemID) {
         }
 
         if(itemsMatched == 12) {
+            updateScore(roomPoints);
             showFoundAll();
+            var refresh = document.getElementById("refresh-button");
+            refresh.removeEventListener("click",restartLevel);
         }
 
         removeRedMarks();
